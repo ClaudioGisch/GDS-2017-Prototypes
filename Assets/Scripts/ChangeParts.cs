@@ -5,7 +5,7 @@ using UnityEngine;
 public class ChangeParts : MonoBehaviour {
 
     public GameObject[] arrayOfParts;
-    public int pos = 0;
+    private int pos = 0;
 
 	// Use this for initialization
 	void Start () {
